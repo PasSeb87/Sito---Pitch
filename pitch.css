@@ -1,0 +1,349 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #313234;
+    color: #bfa090;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 5%;
+    position: sticky;
+    top: 0;
+    background-color: rgba(8, 8, 9, 0.95); /* Leggera trasparenza */
+    backdrop-filter: blur(10px);           /* Effetto vetro satinato */
+    border-bottom: 1px solid rgba(191, 160, 144, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Effetto 3D di profondità */
+    z-index: 1000;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+header nav a {
+    color: #bfa090;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+header nav a:hover {
+    opacity: 0.6;
+}
+
+section {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(191, 160, 144, 0.1);
+    text-align: center;
+    scroll-margin-top: 80px; /* Impedisce alla navbar di coprire il titolo */
+}
+
+#progetto {
+    position: relative;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding-top: 60px;
+    flex-direction: column;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.3; /* Ridotta opacità per garantire la leggibilità del testo */
+}
+
+.section-content {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0;
+}
+
+.section-content p {
+    font-size: 1.25rem;
+}
+
+.line-separator {
+    width: 60px;
+    height: 1px;
+    background-color: rgba(191, 160, 144, 0.4);
+    margin: 35px 0;
+}
+
+#ux-demo {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding-top: 60px;
+    flex-direction: column;
+    border-bottom: none;
+}
+
+#sitemap {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding-top: 60px;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.sitemap-list {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 40px;
+}
+
+.sitemap-item {
+    border-bottom: 1px dashed rgba(191, 160, 144, 0.4);
+    width: 100%;
+}
+
+.sitemap-item summary {
+    list-style: none; /* Rimuove la freccia standard */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: color 0.3s ease;
+}
+
+.sitemap-item summary:hover {
+    color: #D4BCB0; /* Colore Soft Copper al passaggio del mouse */
+}
+
+/* Rimuove il triangolo su Chrome/Safari */
+.sitemap-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.sitemap-item summary::after {
+    content: '+';
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.sitemap-item[open] summary::after {
+    content: '−'; /* Simbolo meno quando aperto */
+}
+
+.sitemap-details {
+    padding: 0 0 25px 0;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.download-sitemap {
+    margin-top: 50px;
+    display: inline-block;
+    color: #bfa090;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    border: 1px solid rgba(191, 160, 144, 0.3);
+    padding: 15px 30px;
+    transition: all 0.3s ease;
+}
+
+.download-sitemap:hover {
+    background-color: rgba(191, 160, 144, 0.05);
+    border-color: #bfa090;
+    opacity: 0.8;
+}
+
+.sitemap-flex {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.sitemap-text {
+    flex: 1;
+}
+
+.sitemap-media {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sitemap-media img {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(191, 160, 144, 0.2);
+}
+
+#style-guide {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding-top: 60px;
+    flex-direction: column;
+}
+
+#style-guide h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 10px;
+}
+
+#sitemap h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 10px;
+}
+
+#progetto h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 10px;
+}
+
+#ux-demo h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 10px;
+}
+
+section h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin: 0;
+}
+
+.style-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 0.6fr; /* Spinge la tipografia più a destra */
+    gap: 30px;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.style-group h2 {
+    font-size: 0.9rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(191, 160, 144, 0.2);
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+
+.palette-container {
+    display: flex;
+    gap: 15px 10px;
+    flex-wrap: wrap;
+}
+
+.swatch-item {
+    text-align: left;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    width: 145px;
+}
+
+.swatch-item p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.swatch-item span {
+    display: block;
+    font-size: 0.6rem;
+    opacity: 0.7;
+    margin-top: 2px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.swatch {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.type-display .font-primary {
+    font-size: 2.2rem;
+    margin: 0 0 10px 0;
+    color: #bfa090;
+}
+
+.type-specimen p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.animations-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.animation-item h3 {
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.animation-item video {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(191, 160, 144, 0.2);
+}
+
+@media (max-width: 768px) {
+    .style-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .palette-container { justify-content: center; }
+    .sitemap-flex {
+        flex-direction: column;
+    }
+    .animations-grid {
+        grid-template-columns: 1fr;
+    }
+}

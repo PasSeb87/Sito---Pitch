@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 564">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        font-size: 24px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: CormorantGaramond-Bold, 'Cormorant Garamond';
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #bfa090;
+      }
+
+      .cls-3 {
+        font-size: 95px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0,0h451v564H0V0ZM65.87,78.41l242.58.02,72.93-57.48H20.72s.02,285,.02,285l45.06-35.64.07-191.89ZM394.73,197.91l.13,163.23-253.27,53.6,285.84.31-.2-344.29-162.4,295.62,92.93-19.38-.06-119.55,37.02-29.55ZM392.83,439.11,169.04,502.55,299.75,440.17"/>
+  <polygon class="cls-4" points="65.87 78.41 65.8 270.3 20.74 305.94 20.72 20.95 381.37 20.94 308.45 78.43 65.87 78.41"/>
+  <polygon class="cls-4" points="394.73 197.91 357.71 227.46 357.76 347.01 264.83 366.39 427.23 70.76 427.43 415.05 141.6 414.74 394.86 361.14 394.73 197.91"/>
+  <text class="cls-3" transform="translate(112.62 174.1)"><tspan x="0" y="0">P</tspan></text>
+  <text class="cls-3" transform="translate(264.84 174.1)"><tspan x="0" y="0">S</tspan></text>
+  <text class="cls-3" transform="translate(188.73 174.1)"><tspan x="0" y="0">Y</tspan></text>
+  <text class="cls-3" transform="translate(106.47 267.2)"><tspan x="0" y="0">C</tspan></text>
+  <text class="cls-3" transform="translate(184.41 267.2)"><tspan x="0" y="0">H</tspan></text>
+  <text class="cls-3" transform="translate(110.99 360.3)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-3" transform="translate(25.33 495.7)"><tspan x="0" y="0">CAMERA</tspan></text>
+  <text class="cls-2" transform="translate(59.7 527.57)"><tspan x="0" y="0">VI</tspan><tspan class="cls-5" x="24.05" y="0">R</tspan><tspan x="38.83" y="0">T</tspan><tspan class="cls-7" x="54.26" y="0">U</tspan><tspan x="70.01" y="0">AL SPIRIT</tspan><tspan class="cls-7" x="180.12" y="0">U</tspan><tspan x="195.86" y="0">AL </tspan><tspan class="cls-6" x="231.74" y="0">A</tspan><tspan x="247.25" y="0">TELIER</tspan></text>
+</svg>

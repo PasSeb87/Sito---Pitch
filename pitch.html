@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="assets/Logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <title>Psyche Camera</title>
+
+     <link rel="stylesheet" href="pitch.css">
+     <script src="pitch.js" defer></script>
+</head>
+    <body>
+        <header>
+            <nav>
+                <a href="#progetto">Concept</a>
+                <a href="#sitemap">Sitemap</a>
+                <a href="#style-guide">Style Guide</a>
+                <a href="#ux-demo">Animations</a>
+            </nav>
+        </header>
+
+        <section id="progetto">
+            <video autoplay muted loop playsinline class="video-bg">
+                <source src="assets/video.mp4" type="video/mp4">
+            </video>
+            <h1>Concept</h1> 
+            <div class="section-content">
+                <p>Spesso l'incontro tra l'osservatore e l'opera d'arte fallisce perché i loro stati d'animo sono dissonanti. Questo progetto rompe il muro della fruizione passiva. Attraverso un'analisi semantica in tempo reale, un'intelligenza artificiale accoglie il pensiero del visitatore, ne percepisce l'essenza e lo guida verso il "luogo spirituale" più affine al suo sentire. Ogni luogo è concepito come un contenitore tematico modulare: dall’indagine sulle dinamiche dei legami umani, all'esplorazione dell’identità o ancora alla cattura delle vibrazioni creative. Il sito non è un semplice portfolio, ma un’architettura sacra digitale dove ogni ritratto è custodito in trittici animati, pronti a svelarsi solo quando lo spirito dell'utente è pronto a riceverne il nutrimento.</p>
+                <div class="line-separator"></div>
+                <p>Often, the encounter between the observer and the artwork fails because their moods are out of sync. This project shatters the wall of passive consumption. Through real-time semantic analysis, an Artificial Intelligence welcomes the visitor's thoughts, perceives their essence, and guides them toward the "spiritual place" most aligned with their current state of mind. Each place is conceived as a modular thematic container: from investigating the dynamics of human bonds to exploring identity, or capturing creative vibrations. The site is not a mere portfolio, but a digital sacred architecture where each portrait is housed within animated triptychs, ready to reveal themselves only when the user's spirit is prepared to receive their nourishment.</p>
+            </div>
+        </section>
+        <section id="sitemap">
+            <h1>Sitemap</h1>
+            <div class="sitemap-list">
+                <details class="sitemap-item">
+                    <summary>Intro</summary>
+                    <div class="sitemap-details">
+                        <p><b>Contenuto:</b> Intro animata al sito.<br><br></p>
+                        <p><b>Contents:</b> Animated intro to the site.</p>
+                    </div>
+                </details>
+
+                <details class="sitemap-item">
+                    <summary>Home</summary>
+                    <div class="sitemap-details">
+                        <div class="sitemap-flex">
+                            <div class="sitemap-text">
+                                <p><b>Contenuto.</b> Presentazione e form di input testuale.</p>
+                                <p><b>Funzione.</b> Accoglienza e raccolta dello stato d'animo tramite analisi semantica.<br><br></p>
+                                <p><b>Content.</b> Presentation and text input form.</p>
+                                <p><b>Function.</b> Welcome and mood collection through semantic analysis.</p>
+                            </div>
+                            <div class="sitemap-media">
+                                <img src="assets/Home_IT.png" alt="Home Screen IT">
+                                <img src="assets/Home_EN.png" alt="Home Screen EN">
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="sitemap-item">
+                    <summary>Options</summary>
+                    <div class="sitemap-details">
+                        <p><i>L'utente potrà inserire nel form 500 caratteri ed utilizzare l'AI per l'analisi semantica che poi suggerirà tre progetti tra i quali scegliere quale visualizzare, oppure esplorare in autonomia l'intero archivio di progetti e scegliere sempre in autonomia quale visualizzare.</i><br><br></p>
+                        <p><i>The user will be able to enter 500 characters into the form and use the AI ​​for semantic analysis which will then suggest three projects from which to choose which to view, or independently explore the entire archive of projects and always independently choose which to view.</i></p>
+                    </div>
+                </details>
+
+                <details class="sitemap-item">
+                    <summary>Project Landing Page</summary>
+                    <div class="sitemap-details">
+                        <div class="sitemap-flex">
+                            <div class="sitemap-text">
+                                <p><b>Contenuto.</b> Sfondo ambientale coerente con il mood del progetto, sinossi e menu delle stanze (ovvero elenco dei soggetti/sottosezioni ritratti disponibili in quel luogo).</p>
+                                <p><b>Funzione.</b> Calare l'utente nell'atmosfera del tema fotografico scelto/suggerito.<br><br></p>
+                                <p><b>Content.</b> Environmental background consistent with the mood of the project, synopsis and room menu (i.e. list of portrait subjects/subsections available in that place).</p>
+                                <p><b>Function.</b> Bring the user into the atmosphere of the chosen/suggested photographic theme.</p>
+                            </div>
+                            <div class="sitemap-media">
+                                <img src="assets/LandingProject_IT.png" alt="Home Screen IT">
+                                <img src="assets/LandingProject_EN.png" alt="Home Screen EN">
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="sitemap-item">
+                    <summary>Subject Landing Page</summary>
+                    <div class="sitemap-details">
+                        <div class="sitemap-flex">
+                            <div class="sitemap-text">
+                                <p><b>Contenuto.</b> Sfondo simbolico con oggetti personali del soggetto ritratto e trittico in legno chiuso.</p>
+                                <p><b>Funzione.</b> Creare intimità con l'identità del soggetto prima di vedere i ritratti + Azione finale dell'utente (click) per aprire l'opera e visualizzare le 3 fotografie.<br><br></p>
+                                <p><b>Content.</b> Symbolic background with personal objects of the portrait subject and closed wooden triptych.</p>
+                                <p><b>Function.</b> Create intimacy with the subject's identity before seeing the portraits + Final user action (click) to open the work and view the 3 photographs.</p>
+                            </div>
+                            <div class="sitemap-media">
+                                <img src="assets/Room_IT.png" alt="Home Screen IT">
+                                <img src="assets/Room_EN.png" alt="Home Screen EN">
+                            </div>
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <a href="assets/Sitemap.pdf" class="download-sitemap" download>Download Sitemap (PDF)</a>
+        </section>
+        <section id="style-guide">
+            <h1>Style Guide</h1>
+            <div class="style-grid">
+                <div class="style-group">
+                    <h2>Color Palette</h2>
+                    <div class="palette-container">
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #080809; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Rich Black</strong><br>#080809<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #121213; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Charcoal Night</strong><br>#121213<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #1C1D1E; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Shadow Grey</strong><br>#1C1D1E<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #313234; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Muted Slate</strong><br>#313234<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #5B5C60; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Steel Smoke</strong><br>#5B5C60<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #927A6D; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Aged Bronze</strong><br>#927A6D<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #A98C7C; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Rose Gold Shadow</strong><br>#A98C7C<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #BFA090; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Warm Gold</strong><br>#BFA090<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #DED1CB; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Light Linen</strong><br>#DED1CB<br></p>
+                        </div>
+                        <div class="swatch-item">
+                            <div class="swatch" style="background-color: #F0EAE6; border: 1px solid rgba(191, 160, 144, 0.3);"></div>
+                            <p><strong>Ethereal Glow</strong><br>#F0EAE6<br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-group">
+                    <h2>Typography</h2>
+                    <div class="type-display">
+                        <p class="font-primary">Cormorant Garamond</p>
+                        <div class="type-specimen">
+                            <p style="font-weight: 400;">Regular: ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                            <p style="font-weight: 700;">Bold: ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ux-demo">
+            <h1>Animations</h1>
+            <div class="animations-grid">
+                <div class="animation-item">
+                    <h3>Intro</h3>
+                    <video controls playsinline>
+                        <source src="assets/Intro.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="animation-item">
+                    <h3>Trittico / Triptych</h3>
+                    <video controls playsinline>
+                        <source src="assets/Trittico.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
